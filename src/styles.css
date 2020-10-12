@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+html,body{
+    font-family: 'Open Sans', sans-serif !important;
+    background:#F4F4F4;
+}
+.pos-rel{
+    position: relative;
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="43" viewBox="0 0 44 43">
+  <g id="Rectangle_9" data-name="Rectangle 9" fill="#0e60ca" stroke="#0e60ca" stroke-width="1">
+    <rect width="44" height="43" rx="21.5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="43" height="42" rx="21" fill="none"/>
+  </g>
+  <g id="Polygon_2" data-name="Polygon 2" transform="translate(33.22 10) rotate(90)" fill="#fff">
+    <path d="M 22.3865852355957 16.0857048034668 L 0.9634151458740234 16.0857048034668 L 11.67500019073486 0.8686476349830627 L 22.3865852355957 16.0857048034668 Z" stroke="none"/>
+    <path d="M 11.67500019073486 1.73728084564209 L 1.926822662353516 15.5857048034668 L 21.42317771911621 15.5857048034668 L 11.67500019073486 1.73728084564209 M 11.67500019073486 3.814697265625e-06 L 23.35000038146973 16.5857048034668 L 0 16.5857048034668 L 11.67500019073486 3.814697265625e-06 Z" stroke="none" fill="#0e60ca"/>
+  </g>
+</svg>
