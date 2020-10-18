@@ -1,0 +1,110 @@
+.sidebar-container{
+    border-right:1px solid #D5D5D5;
+    background: #ffffff;
+    position: relative;
+    padding: 0;
+    min-height: 600px;
+}
+.edit-profile-warpper{
+    background:url(../../../assets/images/sidebar-bg.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 140px;
+    float: left;
+}
+.edit-profile-warpper img{
+    margin: 38px auto;
+    display: table;
+    border-radius: 50%;
+}
+.profile-image-upload{
+    background:url(../../../assets/images/edit-icon.svg) no-repeat;
+    background-size: cover;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 72px;
+    top: 85px;
+}
+.edit-profile-warpper input[type="file"]{
+    opacity: 0;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 72px;
+    top: 85px;
+    font-size: 0;
+    cursor: pointer;
+}
+.inner-copy-rights{
+    position: absolute;
+    bottom:22px;
+    left:0;
+    right:0;
+    font-size:12px;
+    text-align: center;
+}
+.inner-copy-rights a{
+    color:#000000;
+}
+.movie-list{
+    background: #F4F4F4;
+    padding:0;
+}
+.user-edit-view{
+    float: left;
+    margin-top:15px;
+}
+.form-element{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 0 20px 10px 20px;
+    position: relative;
+}
+.user-edit-view label{
+    font-size: 14px;
+    color:#666666;
+    margin:0;
+}
+.user-edit-view input{
+    font-size: 14px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.user-edit-view input:focus{
+    outline: none;
+}
+.user-edit-view .form-element a{
+    font-size: 14px;
+    color: #0E60CA;
+}
+.profile-password input{
+    margin-bottom: 10px;
+}
+.purchase-history-cta{
+    margin-top: -10px;
+}
+.purchase-history-cta a{
+    padding: 15px 20px;
+    float: left;
+    width: 100%;
+    background: rgba(213, 213, 213, 0.1);
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none;
+    transition: 0.25s linear;
+}
+.purchase-history-cta a:hover{
+    background:rgba(14,96,202,0.1);
+    color:#0E60CA;
+}
+.edit-user-name{
+    background:url(../../../assets/images/edit-icon.png) no-repeat;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}

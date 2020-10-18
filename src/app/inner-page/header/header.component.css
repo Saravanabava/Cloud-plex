@@ -1,0 +1,29 @@
+.inner-page-logo{
+    background: url(../../../assets/images/cloudplex-logo.svg) no-repeat;
+    background-size: 100%;
+    width: 180px;
+    float: left;
+    margin: 18px 0;
+    height: 44px
+}
+.logo-out{
+    font-size:14px;
+    color: #0E60CA;
+    float:right;
+    text-align: left;
+    margin-top:30px;
+    position: relative;
+    padding-left: 20px;
+}
+.logo-out::before{
+    content:'';
+    position: absolute;
+    background: url(../../../assets/images/logout-icon.png) no-repeat;
+    width: 19px;
+    height: 19px;
+    left: 0px;
+    top: 3px;
+}
+.bdr-bottom-gray{
+    border-bottom:1px solid #eee;
+}

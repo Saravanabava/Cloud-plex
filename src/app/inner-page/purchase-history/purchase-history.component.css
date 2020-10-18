@@ -1,0 +1,8 @@
+.purchase-history-wrapper{
+    padding: 32px 28px;
+}
+.purchase-history-list{
+    border: 1px solid #d5d5d5;
+    background: #fff;
+    padding: 15px 20px;
+}

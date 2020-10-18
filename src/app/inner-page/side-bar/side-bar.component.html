@@ -1,1 +1,35 @@
-<p>side-bar works!</p>
+<div class="row">
+    <div class="col-2 sidebar-container">
+        <div class="edit-profile-warpper">        
+            <img id="myImg" src="../../../assets/images/profile-image.png" alt="your image" height="64" width="64">
+            <span class="profile-image-upload"></span>
+            <input type="file" accept="image/*" />
+        </div>
+        <div class="user-edit-view">
+            <div class="form-element">
+                <label>Name</label>
+                <input type="text" value="Vijay Sethupathi" readonly />
+                <a href="javascript:;" class="edit-user-name"></a>
+            </div>
+            <div class="form-element">
+                <label>Mobile Number</label>
+                <input type="text" value="9886000655" readonly />
+            </div>
+            <div class="form-element profile-password">
+                <label>Password</label>
+                <input type="password" value="********" readonly />
+                <a href="javascript:;">Change password</a>
+            </div>
+            <div class="purchase-history-cta">
+                <a href="javascript:;">Purchase History</a>
+            </div>
+        </div>
+        <p class="inner-copy-rights">&copy; 2020, <a href="javascript:;">Cloudplex.in</a></p>
+    </div>
+    <div class="col-10 movie-list">
+        <!-- <app-movie-list></app-movie-list>
+        <app-movie-details></app-movie-details> -->
+        <!-- <app-order-summary></app-order-summary> -->
+        <app-purchase-history></app-purchase-history>
+    </div>
+</div>
