@@ -5,4 +5,28 @@
     border: 1px solid #d5d5d5;
     background: #fff;
     padding: 15px 20px;
+    width:100%;
+    float: left;
+}
+.purchase-history-details-wrapper img{
+    float: left;
+}
+.purchase-history-details-content{
+    float: left;
+    margin-left: 25px;
+}
+.purchase-history-details-content h5{
+    font-weight: 600;
+    font-size:20px;
+    margin-bottom: 5px;
+}
+.purchase-history-details-content p{
+    font-size: 15px;
+}
+.purchase-history-details-content .watch-triler-cta{
+    margin-top: 15px;
+}
+.purchase-date{
+    font-size: 14px;
+    margin-bottom: 10px !important;
 }
