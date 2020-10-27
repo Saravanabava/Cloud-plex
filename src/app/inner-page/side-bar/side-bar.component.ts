@@ -20,10 +20,33 @@ export class SideBarComponent implements OnInit {
       });
     });
 
-    // function imageIsLoaded() { 
-    //   alert(this.src);  // blob url
-    //   // update width and height ...
-    // }
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var address = document.querySelector('.address')
+      if (!navigator.geolocation){
+        console.log("Geolocation is not supported by your browser");
+      } else {
+        navigator.geolocation.getCurrentPosition(success, error);
+      }
+        
+      function success(position:any) {
+        let long:any  = position.coords.latitude;
+        let lat:any = position.coords.longitude;
+        ipLookup(long, lat)
+      }
+      function error() {
+        console.log("Unable to retrieve your location");
+      }
+      function ipLookup(long,lat) {
+        fetch('https://extreme-ip-lookup.com/json/')
+        .then( res => res.json())
+        .then(response => {
+          fallbackProcess(response)
+        })
+      }    
+      function fallbackProcess(response:any) {
+        address.innerHTML = `${response.country}`
+      }
+    });
 
   }
   
